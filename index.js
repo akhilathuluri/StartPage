@@ -1,4 +1,4 @@
-const accessKey = 'kG6hiIrIQ6sYgVjF-mOvr60XREK5l_3NrhS8fjW5RMo';
+const accessKey = 'kG6hiIrIQ6sYgVjF-mOvr60XREK5l_3NrhS8fjW5R'; //Enter Your Unsplash Api Key Here
 const apiUrl = `https://api.unsplash.com/photos/random?query=technology&client_id=${accessKey}`;
 const screenWidth = window.screen.width;
 const screenHeight = window.screen.height;

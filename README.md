@@ -2,6 +2,11 @@
 
 This startpage is a personalized homepage where you can quickly access your frequently visited websites and search on Google.
 
+### The Example Output For This Repo - 
+
+![image](https://user-images.githubusercontent.com/89147384/232140525-8f3e9706-d37c-488b-b53d-375e7abaff27.png)
+
+
 ## To use this startpage, you need to follow the below steps:
 
 1. Download or clone the repository from Github.

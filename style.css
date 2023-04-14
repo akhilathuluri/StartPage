@@ -1,0 +1,117 @@
+/* default styles */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    max-width: 50%;
+    max-height: 56%;
+    padding: 20px 40px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.s-box {
+    width: 580px;
+    margin: 0px auto;
+    margin-left: 70px;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+}
+
+.s-box .s-input {
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(0,0,0, 0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    transition: box-shadow 100ms;
+    outline: none;
+}
+
+.s-box .s-input:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05), 
+                0 0 5px rgba(0, 0, 0, 0.05), 
+                0 0 4px rgba(0, 0, 0, 0.05), 
+                0 0 5px rgba(0, 0, 0, 0.05)
+}
+
+.s-box .search-icon {
+    width: 20px;
+    opacity: .4;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+
+.s-box .vs-icon {
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: -35px;
+}
+
+.button1,
+.button2 {
+    background-color: black; 
+    border: none; 
+    color: #fff;
+    cursor: pointer; 
+    font-size: 16px; 
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    transition: background-color 0.56s ease; 
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.button1:hover,
+.button2:hover {
+    background-color: white; 
+    color: black;
+    border-radius: 38px;
+}
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+    .box {
+        max-width: 90%;
+        max-height: 70%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	.s-box {
+	width: 100%;
+	margin: 0px auto;
+	margin-left: 0px;
+	margin-top: -8px;
+	}
+	.button1,
+.button2 {
+    margin-right: 0px;
+}
+}
